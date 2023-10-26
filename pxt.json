@@ -1,0 +1,33 @@
+{
+    "name": "SERVO",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6",
+        "servo": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.18",
+        "tag": "v6.0.18",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/1919e0531aa57d2d1aff173fafd625176e15c07d",
+        "target": "6.0.19",
+        "pxt": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
